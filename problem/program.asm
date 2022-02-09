@@ -1,6 +1,6 @@
-// COLOCO AQUÍ TU NOMBRE COMPLETO
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+// Santiago Torres Saldarriaga
+// 000431583
+// santiago.torress@upb.edu.co
 (START)
     @START
     0;JMP
