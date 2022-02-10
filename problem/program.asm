@@ -15,5 +15,3 @@
     D=A
     @tecla
     M=D
-
-    0;JMP
