@@ -49,3 +49,24 @@
 	M=M-1
 	@pintar
 	0;JMP
+(Indentificar_las_teclas_oprimidas) 
+	@llenado
+    D=M
+    @Pantalla_pintada
+    D;JNE
+	@24575
+	D=A
+	@espacio_de_memoria
+	M=D
+	@tecla
+	A=M
+	D=M
+	@llenado
+	M=-1
+	@codeF
+	D=D-M
+	@pintar
+	D;JEQ
+    @Pantalla_pintada
+	0;JMP
+
