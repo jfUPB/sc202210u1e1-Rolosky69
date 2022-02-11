@@ -33,4 +33,19 @@
 	D=M
 	@llenado
 	M=D
-
+(pintar) //Pintamos la pantalla en negro//
+	@llenado
+	D=M
+	@espacio_de_memoria
+	A=M
+	M=D
+	@espacio_de_memoria
+	D=M
+	@16384
+	D=D-A
+	@Indentificar_las_teclas_oprimidas
+	D;JLE
+	@espacio_de_memoria
+	M=M-1
+	@pintar
+	0;JMP
